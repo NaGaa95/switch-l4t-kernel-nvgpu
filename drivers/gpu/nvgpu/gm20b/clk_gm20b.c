@@ -54,8 +54,8 @@
 #define DVFS_SAFE_MARGIN	10	/* 10% */
 
 static struct pll_parms gpc_pll_params_b1 = {
-	128000,  2600000,	/* freq */
-	1300000, 2600000,	/* vco */
+	128000,  3600000,	/* freq */
+	1300000, 3600000,	/* vco */
 	12000,   38400,		/* u */
 	1, 255,			/* M */
 	8, 255,			/* N */
@@ -69,8 +69,8 @@ static struct pll_parms gpc_pll_params_b1 = {
 };
 
 static struct pll_parms gpc_pll_params_c1 = {
-	76800,   2600000,	/* freq */
-	1300000, 2600000,	/* vco */
+	76800,   3600000,	/* freq */
+	1300000, 3600000,	/* vco */
 	19200,   38400,		/* u */
 	1, 255,			/* M */
 	8, 255,			/* N */
